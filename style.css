@@ -1,0 +1,137 @@
+body{
+    margin-bottom: 150px;
+    height: 600px;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-image: url(https://damion.club/uploads/posts/2022-01/thumbs/1642182671_38-damion-club-p-prazdnichnii-fon-den-rozhdeniya-38.jpg);
+}
+div{
+    width: 400px;
+    height: 200px;
+    /* border: 2px solid; */
+    /* border-radius: 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/90/ff/e7/90ffe71be38a6c20e3b646aca4472c5b.png);
+    
+    /* box-shadow: -4px -4px 15px 10px rgb(37, 3, 77); */
+    position: relative;
+    animation: mymove 8s infinite;
+    transition: 15s;
+    top: 500px;
+}
+@keyframes mymove{
+    from{
+       left: 100px;
+      top: 200px;
+    }
+    to{
+        left: 300px;
+        top: 300px;
+    }
+    
+}
+.key{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid; */
+    /* border-radius: 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://sunveter.ru/uploads/posts/2021-07/1626887964_ball1.gif);
+    
+    /* box-shadow: -4px -4px 15px 10px rgb(37, 3, 77); */
+    position: relative;
+    animation: mymove 8s infinite;
+    transition: 10s;
+    top: 500px;
+}
+.mey{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid; */
+    /* border-radius: 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://free-png.ru/wp-content/uploads/2022/07/free-png.ru-210-340x340.png);
+    
+    /* box-shadow: -4px -4px 15px 10px rgb(37, 3, 77); */
+    position: relative;
+    animation: mymove 8s infinite;
+    transition: 10s;
+    top: 300px;
+}
+/* @keyframes mymove{
+    from{
+       bottom : 100px;
+      
+    }
+    to{
+        left: 1600px;
+        
+    }
+    
+} */
+
+/* @keyframes eliza{
+    0%{
+        left: 50px;
+       bottom: 200px;
+       top: 100px;
+    }
+    25%{
+        left: 650px; 
+        bottom: 300px;
+        top: 200px;
+    }
+    50%{
+        right: 500px; 
+        bottom: 400px;
+        top: 300px;
+    }
+    75%{
+        left: 400px; 
+        bottom: 500px;
+        top: 400px;
+    }
+    100%{
+        right:  100px; 
+        bottom: 600px;
+        top: 600px;
+    }
+} */
+@media (max-width:1100px){
+    div{
+        width: 100px;
+        height: 100px;
+        transition: 9s;
+       top: 400px;
+    }
+    body{
+        background-image: url(https://phonoteka.org/uploads/posts/2021-04/1618825304_5-phonoteka_org-p-fon-s-sharami-dlya-prezentatsii-5.jpg);
+    }
+}
+
+@media (max-width:800px){
+    div {
+        width: 50px;
+        height: 50px;
+        transition: 10s;
+        top: 400px;
+    }
+    body{
+        background-image: url(https://img.freepik.com/premium-vector/spring-background-summer-flower-landscape-with-grass-trees-meadow-sakura-blossom-green-bushes-hills-rural-countryside-village-environment-season-view-sun-clouds-spring-rustic-landscape_191217-442.jpg?w=2000);  
+}
+}
+@media (max-width:400px){
+    div {
+        width: 50px;
+        height: 50px;
+        transition: 10s;
+        top: 600px;
+    }
+    body{
+        background-image: url(https://img.freepik.com/premium-vector/spring-background-summer-flower-landscape-with-grass-trees-meadow-sakura-blossom-green-bushes-hills-rural-countryside-village-environment-season-view-sun-clouds-spring-rustic-landscape_191217-442.jpg?w=2000);
+    }
+}
